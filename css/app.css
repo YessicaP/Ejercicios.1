@@ -1,8 +1,37 @@
 * {
   outline: 1px solid purple;
 }
+/*variables*/
+:root{
+  --color-primario:#00ff00;
+  --color-secundario:#ff0000;
+  --color-link-hover: #f00000;
+  --altura-header: 75px;
+  --altura-secion: 100vh;
+}
 
 /* resets*/
 div, section, article, ul{
   height: 100%;
+}
+header{
+  height: var(--altura-header);
+}
+
+figure{
+  height: 100%;
+  display: block;
+}
+figure img{
+  display: block;
+  margin: auto;
+  height: 100%;
+  width: auto;
+}
+.ha{
+  height: auto;
+}
+/*body*/
+#heroscreen, #info, #participantes, #ubicacion {
+  height: var(--altura-seccion)
 }
