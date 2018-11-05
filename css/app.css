@@ -47,6 +47,14 @@
     display: block;
     height: 100%;
 }
-#heroscreen #info #participantes #ubicacion{
-  height: var(--altura-header);
+#heroscreen, #info, #participantes, #ubicacion{
+  height: var(--altura-section);
+}
+
+#participantes div {
+  height: 100px;
+}
+#participantes img {
+  height: auto;
+  width: 100%;
 }
