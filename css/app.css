@@ -39,9 +39,15 @@ form {
 }
 /* header */
 header {
+  background: white;
   height: var(--altura-header);
   position: fixed;
   z-index: 10000;
+  background: black;
+}
+.text{
+  color: white;
+
 }
 figure {
   height: 100%;
@@ -76,12 +82,21 @@ figure img {
   position: absolute;
   left: 0;
   z-index: 0;
+
 }
 .heroscreen_text h1 {
-  font-size: 6em
+  font-weight: bolder;
+  font-size: 6em;
+  width: 60%;
+text-align: left;
+color:white;
 }
 .heroscreen_text h3 {
-  font-size: 4em
+  font-size: 4em;
+  font-weight: bold;
+  width: 50%;
+  text-align: left;
+  color:white;
 }
 /* info */
 /*  */
@@ -113,6 +128,8 @@ figure img {
 /* Ubucacion */
 #ubicacion {
   overflow: hidden;
+  background: black;
+  color:white;
 }
 #map {
   background: url('../img/placeholder.png') no-repeat;
@@ -121,9 +138,17 @@ figure img {
   overflow: hidden;
   height: 100%;
 }
+/*info*/
+.text{
+  background: black;
+  color: white;
+
+}
 /* footer */
 footer {
   height: var(--altura-header);
+  background:black;
+  color:white;
 }
 .social {
   font-size: 2em
@@ -131,4 +156,8 @@ footer {
 .social ul {
   padding: 0;
   margin: 0;
+}
+
+.botton{
+  color: white;
 }
