@@ -1,5 +1,6 @@
-{
-  outline: 1px solid black;
+/* wireframe */
+* {
+  /* outline: 1px solid black; */
 }
 /* variables */
 :root {
@@ -39,15 +40,10 @@ form {
 }
 /* header */
 header {
-  background: white;
   height: var(--altura-header);
   position: fixed;
   z-index: 10000;
-  background: black;
-}
-.text{
-  color: white;
-
+  background:white;
 }
 figure {
   height: 100%;
@@ -59,10 +55,6 @@ figure img {
   margin: auto;
   height: 100%;
   width: auto;
-}
-.navbar-brand{
-  padding-top: 0;
-  padding-bottom: 0;
 }
 /* body */
 #heroscreen, #info, #ubicacion {
@@ -86,21 +78,12 @@ figure img {
   position: absolute;
   left: 0;
   z-index: 0;
-
 }
 .heroscreen_text h1 {
-  font-weight: bolder;
-  font-size: 6em;
-  width: 60%;
-text-align: left;
-color:white;
+  font-size: 6em
 }
 .heroscreen_text h3 {
-  font-size: 4em;
-  font-weight: bold;
-  width: 50%;
-  text-align: left;
-  color:white;
+  font-size: 4em
 }
 /* info */
 /*  */
@@ -132,28 +115,17 @@ color:white;
 /* Ubucacion */
 #ubicacion {
   overflow: hidden;
-  background: black;
-  color:white;
 }
 #map {
-  background: url('../img/.jpg') no-repeat;
+  background: url('../img/placeholder.png') no-repeat;
   background-size: cover;
   background-position: center;
   overflow: hidden;
   height: 100%;
-  margin-top: 4%;
-}
-/*info*/
-.text{
-  background: black;
-  color: white;
-
 }
 /* footer */
 footer {
   height: var(--altura-header);
-  background:black;
-  color:white;
 }
 .social {
   font-size: 2em
@@ -161,8 +133,4 @@ footer {
 .social ul {
   padding: 0;
   margin: 0;
-}
-
-.botton{
-  color: white;
 }
